@@ -1,0 +1,196 @@
+    body{
+        margin:0;
+    }
+    .background {
+        height: 100vh;
+        background-image:url("airplane.jpg") ;
+        background-size: cover; 
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+    /*  position: relative
+        max-width: 800px; /* Maximum width */
+        /* Center it */
+    }
+    .tans_box{
+        position: relative; /* Position the background text */
+        left: 0; 
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1; /* Grey text */
+        width: 35%; /* Full width */
+        height: 100%;
+        padding: 20px; /* Some padding */
+    }
+    .header-flight{
+        text-align: center;
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        font-family: "Quicksand", sans-serif;
+        font-size: xx-large;
+    }
+    h2 {
+        text-align: center;
+        position: absolute;
+        top: 34%;
+        left: 25%;
+        font-family: "Quicksand", sans-serif;
+    }
+    .Facebook-but {
+        display: flex;
+        height: 50px;
+        padding: 0;
+        background: #25699D;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "Quicksand", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .Facebook-but:hover {
+        background: #143752;
+    }
+    
+    .Facebook-but:active {
+        background: #1E547D;
+    }
+    .fbutton__text, .fbutton__icon,.ibutton__text,.ibutton__icon,.tbutton__text,.tbutton__icon {
+        display: inline-flex;
+        align-items: center;
+        padding: 0 24px;
+        color: #fff;
+        height: 100%;
+    }
+    .fbutton__icon,.ibutton__icon,.tbutton__icon {
+        font-size: 1.5em;
+        background: rgba(0, 0, 0, 0.08);
+    }
+
+    .Instagram-but {
+        display: flex;
+        height: 50px;
+        padding: 0;
+        background: #BE62AF;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "Quicksand", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .Instagram-but:hover {
+        background: #6C3663;
+    }
+    .Instagram-but:active {
+        background: #BE62AF;
+    }
+
+    .Twitter-but {
+        display: flex;
+        height: 50px;
+        padding: 0;
+        background: #33C9FF;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "Quicksand", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin: 0;
+        position: absolute;
+        top: 70%;
+        left: 25%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .Twitter-but:hover {
+        background: #2694BC;
+    }
+    .Twitter-but:active {
+        background: #33C9FF;
+    }
+    * {
+        box-sizing:content-box;
+    }
+   
+    input[type=text],select {
+        width: 25%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        resize: vertical;
+    }
+    label {
+        padding: 3px 3px 3px ;
+        display: inline-block;
+        width:50px;
+
+    }
+    
+    input[type=submit] {
+        background-color:#FFE87C;
+        color: black;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        float: right;
+        text-size-adjust:auto;
+        width:100px;
+    }
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+    input[type=radio] {
+        padding: 6px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        width:65px;
+    }
+    .container {
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 15px;
+        background-size: 10px;
+        width: 450px;
+        height: 240px;
+        position: fixed;
+        top: calc(50% - 190px);
+        left: calc(50% - 50px);
+        opacity:0.7; 
+    }
+    @media screen and (max-width: 200px) {
+        .col-25, .col-75, input[type=submit] {
+            width: 25%;
+            margin-top: 0;
+        }
+    }
+    
+
+
+
+    
