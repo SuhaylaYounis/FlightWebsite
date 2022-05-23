@@ -1,0 +1,73 @@
+* {
+    box-sizing: content-box;
+}
+body{
+    background-image:url("plane.jpg") ;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+input[type="text"],
+select {
+  width: 25%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  resize: vertical;
+}
+label {
+ white-space: nowrap;
+  padding: 3px 3px 3px;
+  display: inline-block;
+  width: auto;
+}
+
+
+input[type="submit"] {
+  background-color: #7caaff;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+  text-size-adjust: auto;
+  width: 100px;
+  
+}
+
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="radio"] {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 65px;
+}
+
+.parent{
+    margin: 150px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 15px;
+  background-size: 10px;
+  width:590px;
+  height: max-content;
+}
+@media screen and (max-width: 200px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 25%;
+        margin-top: 0;
+    }
+}

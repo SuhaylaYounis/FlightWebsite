@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <h2 style="text-align: center">Payment</h2>
+        <br />
+        <form action="/action_page.php">
+          <label for="Choose Class">Choose Class:</label>
+          <select id="Choose Class" name="Choose Class">
+            <option value=""></option>
+            <option value="First class">First class</option>
+            <option value="Economy">Economy</option>
+            <option value="Business class">Businessclass</option>
+          </select>
+          <label class="label1" for="Number of Seats">Number of Seats:</label>
+          <select id="Number of Seats" name="Number of Seats">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <br /><br />
+          <br /><br />
+          <div class="row">
+            <input type="radio" id="Cash" name="radc" value="Cash" />
+            <label for="Cash">Cash</label>
+            <input type="radio" id="Credit" name="radc" value="Credit" />
+            <label for="Credit">Credit</label>
+            <input type="submit" value="Next" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

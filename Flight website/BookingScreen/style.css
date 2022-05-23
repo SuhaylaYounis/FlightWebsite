@@ -150,7 +150,7 @@
 
     }
     
-    input[type=submit] {
+    input[type=button] {
         background-color:#FFE87C;
         color: black;
         padding: 10px 10px;
@@ -161,8 +161,9 @@
         text-size-adjust:auto;
         width:100px;
     }
-    input[type=submit]:hover {
+    input[type=button]:hover {
     background-color: #45a049;
+    
     }
     input[type=radio] {
         padding: 6px 10px;
